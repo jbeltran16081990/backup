@@ -26,8 +26,8 @@ const sendMail  = async(req,res,next) => {
     });
     try {
         const info = await transporter.sendMail({
-            from: '"user From the application" <contacto@jabg-test.xyz>',
-            to: 'jbeltran16081990@gmail.com',
+            from: '"user From the application" <aplicacionweb@insuofficesas.com>',
+            to: 'comercial@insuofficesas.com',
             subject: 'Contacto desde la aplicacion WEB',
             html: contentHTML
         });
